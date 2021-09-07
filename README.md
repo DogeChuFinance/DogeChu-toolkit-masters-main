@@ -1,1 +1,25 @@
-# DogeChu-toolkit-masters-main
+# dogechu Toolkit
+
+This repository is a monorepo manage with [yarn workspaces](https://classic.yarnpkg.com/en/docs/workspaces/) and [Lerna](https://lerna.js.org/). 
+
+## Packages
+
+- [dogechu-uikit](https://github.com/dogechu/dogechu-toolkit/tree/master/packages/dogechu-uikit) : React components used to build the dogechu UI
+- [eslint-config-dogechu](https://github.com/dogechu/dogechu-toolkit/tree/master/packages/eslint-config-dogechu) : An ESLint config for dogechu, with Typescript and Prettier support
+
+## How to use
+
+Clone the repository 
+
+```
+git clone git@github.com:dogechu/dogechu-toolkit.git
+```
+
+Run yarn at the root of the workspace
+
+```
+cd dogechu-toolkit
+yarn
+```
+
+Then, refer to the readme of each project.
